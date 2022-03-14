@@ -1,0 +1,14 @@
+.top{
+align-items: flex-end;
+}
+.add{
+margin-left: auto;
+width: fit-content;
+}
+.cont{
+    min-height: 700px;
+}
+.footer{
+    vertical-align: bottom;
+    text-align: center;
+}
