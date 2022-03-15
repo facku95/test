@@ -2,14 +2,19 @@
 
 
 
-    <div class="container mt-5 cont">
+    <div class="container cont">
         <div class="row mt-4">
             <form  method="POST" enctype="multipart/form-data">
-                <h4>Product Add</h4>
                 
+                <div class="d-flex mb-3">
+
+                <h4>Product Add</h4>
+                <div class="top">    
                 <button class="btn btn-outline-primary mb-2" name="action" value="save" type="submit">Save</button>
                 <button class="btn btn-outline-primary mb-2" name="action" value="delete" type="submit">Mass delete</button>
-                
+                </div>
+
+                </div>
             
 
             <hr>

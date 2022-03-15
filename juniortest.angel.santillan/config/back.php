@@ -6,7 +6,6 @@ $price=(isset($_POST['precio']))?$_POST['precio']:"";
 $type=(isset($_POST['categoria']))?$_POST['categoria']:"";
 $action=(isset($_POST['action']))?$_POST['action']:"";
 
-include("config/database.php");
 
 if($action=="save"){
     $sentenciaSQl=$conection->prepare("INSERT INTO product (sku,name,price,type) VALUES (:sku,:name,:price,:type);");
